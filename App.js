@@ -1,6 +1,7 @@
 import { View } from "react-native";
-import Header from "./src/componentes/Header";
-import Stories from "./src/componentes/Stories";
+import fotoinsta from "./src/assets/fotoinsta.jpg";
+import InfoProfile from "./src/componentes/InfoProfile";
+
 
 
 export default function App() {
@@ -12,8 +13,12 @@ export default function App() {
         marginHorizontal: 16,
       }}
     >
-      <Header />
-      <Stories />
+    <InfoProfile 
+    image={fotoinsta} 
+    publi={12} 
+    followers={945}
+    following={778} 
+    description="paz e amor" />
     </View>
   );
 }

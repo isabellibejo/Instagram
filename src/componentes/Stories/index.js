@@ -1,5 +1,6 @@
 import { StyleSheet, Image, ScrollView, TouchableOpacity } from "react-native"
 import Imagem from "../../assets/imagem.jpg";
+import Story from "../Story";
 
 export default function Stories() {
     return (
@@ -9,54 +10,13 @@ export default function Stories() {
             style={{ flexDirection: "row" }}
             showsHorizontalScrollIndicator={false}
         >
-            <TouchableOpacity>
-                <Image
-                    style={styles.story}
-                    source={{
-                        uri: "https://i.pinimg.com/550x/98/43/1a/98431a96f44d5e42094cab4db691901a.jpg",
-                    }}
-                />
-            </TouchableOpacity>
-            <TouchableOpacity>
-                <Image
-                    style={styles.story}
-                    source={{
-                        uri: "https://i.pinimg.com/550x/98/43/1a/98431a96f44d5e42094cab4db691901a.jpg",
-                    }}
-                />
-            </TouchableOpacity>
-            <TouchableOpacity>
-                <Image
-                    style={styles.story}
-                    source={{
-                        uri: "https://i.pinimg.com/550x/98/43/1a/98431a96f44d5e42094cab4db691901a.jpg",
-                    }}
-                />
-            </TouchableOpacity>
-            <TouchableOpacity>
-                <Image
-                    style={styles.story}
-                    source={{
-                        uri: "https://i.pinimg.com/550x/98/43/1a/98431a96f44d5e42094cab4db691901a.jpg",
-                    }}
-                />
-            </TouchableOpacity>
-            <TouchableOpacity>
-                <Image
-                    style={styles.story}
-                    source={{
-                        uri: "https://i.pinimg.com/550x/98/43/1a/98431a96f44d5e42094cab4db691901a.jpg",
-                    }}
-                />
-            </TouchableOpacity>
-            <TouchableOpacity>
-                <Image
-                    style={styles.story}
-                    source={{
-                        uri: "https://i.pinimg.com/550x/98/43/1a/98431a96f44d5e42094cab4db691901a.jpg",
-                    }}
-                />
-            </TouchableOpacity>
+            <Story image={imagem}/>
+            <Story image={imagem}/>
+            <Story image={imagem}/>
+            <Story image={imagem}/>
+            <Story image={imagem}/>
+            <Story image={imagem}/>
+            
         </ScrollView>
     );
 }
