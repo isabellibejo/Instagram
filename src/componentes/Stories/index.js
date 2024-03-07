@@ -10,12 +10,12 @@ export default function Stories() {
             style={{ flexDirection: "row" }}
             showsHorizontalScrollIndicator={false}
         >
-            <Story image={imagem}/>
-            <Story image={imagem}/>
-            <Story image={imagem}/>
-            <Story image={imagem}/>
-            <Story image={imagem}/>
-            <Story image={imagem}/>
+            <Story image={Imagem}/>
+            <Story image={Imagem}/>
+            <Story image={Imagem}/>
+            <Story image={Imagem}/>
+            <Story image={Imagem}/>
+            <Story image={Imagem}/>
             
         </ScrollView>
     );
